@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "name": "Akshitha",
+      "email": "akshitha@gmail.com",
+      "phone": "7729942732",
+      "id": "634e"
+    },
+    {
+      "name": "meda",
+      "email": "veda@gmail.com",
+      "phone": 789632156,
+      "id": "18bf"
+    },
+    {
+      "id": "ad5f",
+      "name": "mahi",
+      "email": "mahi@gmail.com",
+      "phone": "6305612347"
+    },
+    {
+      "id": "f539",
+      "name": "veda",
+      "email": "veda@gmail.com",
+      "phone": 789632156
+    },
+    {
+      "name": "kadha",
+      "email": "kadha@gmail.com",
+      "phone": 789632156,
+      "id": "5885"
+    },
+    {
+      "id": "ba9e",
+      "name": "veda",
+      "email": "veda@gmail.com",
+      "phone": 789632156
+    },
+    {
+      "id": "fe42",
+      "name": "veda",
+      "email": "veda@gmail.com",
+      "phone": 789632156
+    },
+    {
+      "id": "5f1e",
+      "name": "veda",
+      "email": "veda@gmail.com",
+      "phone": 789632156
+    },
+    {
+      "id": "10e8",
+      "name": "veda",
+      "email": "veda@gmail.com",
+      "phone": 789632156
+    },
+    {
+      "id": "0b58",
+      "name": "mahi",
+      "age": "27"
+    },
+    {
+      "name": "kichu",
+      "age": 56,
+      "id": "dd06"
+    },
+    {
+      "id": "c26b",
+      "name": "akshitha",
+      "age": 23
+    },
+    {
+      "id": "7e34",
+      "name": "akshitha",
+      "age": 23
+    }
+  ],
+  "products": [
+    {
+      "name": "headphone",
+      "price": "26000",
+      "id": "a26c",
+      "color": "black",
+      "descrptive": "good volume....."
+    },
+    {
+      "id": "8bb7",
+      "name": "phone",
+      "price": "20000",
+      "color": "silver",
+      "descrptive": "screen....."
+    },
+    {
+      "id": "846b",
+      "name": "laptops",
+      "price": "70000",
+      "color": "offwight",
+      "descrptive": "screen....."
+    },
+    {
+      "id": "9934",
+      "name": "akshu",
+      "email": "akshu@gmail.com",
+      "phone": "789632485"
+    },
+    {
+      "id": "f01f",
+      "name": "akshu",
+      "email": "akshu@gmail.com",
+      "phone": "789632485"
+    }
+  ]
+}

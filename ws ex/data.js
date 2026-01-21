@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "phone": "oppo",
+      "color": "silver",
+      "id": "e793"
+    },
+    {
+      "phone": "vivo",
+      "color": "blue",
+      "id": "172a"
+    },
+    {
+      "id": "d5ab",
+      "phone": "realme",
+      "color": "blue"
+    },
+    {
+      "id": "b9e0",
+      "phone": "realme",
+      "color": "blue"
+    },
+    {
+      "phone": "iphone",
+      "color": "gold",
+      "id": "c62d"
+    },
+    {
+      "id": "273c",
+      "phone": "vivo",
+      "color": "black"
+    },
+    {
+      "id": "816d",
+      "phone": "realme",
+      "color": "blue"
+    }
+  ]
+}
