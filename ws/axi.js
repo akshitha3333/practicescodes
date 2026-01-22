@@ -110,20 +110,106 @@
 // }
 // //deleteproduct()
 ///////////////////////////////////////////////////
+// async function addproducts(){
+//     const axios=require('axios')
+//     data={"phone":"vivo","color":"black"}
+//     let response=await axios("http://localhost:3000/products",{
+//         method:"POST",
+//         data:JSON.stringify(data),
+//         Headers:{
+//             "content-type":"application/json"
+//         }
+//     })
+//     console.log(response);
+    
+// }
+// //addproducts()
+// async function displayproducts(){
+//     const axios=require('axios')
+//     let response=await axios("http://localhost:3000/products",{
+//         method:"GET",
+//         Headers:{
+//             "content-type":"application/json"
+//         }
+//     })
+//     console.log(response);
+    
+// }
+// //displayproducts()
+// async function displayproduct(){
+//     const axios=require('axios')
+//     let response=await axios("http://localhost:3000/products",{
+//         method:"GET",
+//         Headers:{
+//             "content-type":"application/json"
+//         }
+//     })
+//          console.log(response);
+// }
+// displayproduct()
+// async function modifyproduct(){
+//     const axios=require('axios')
+//     let data={
+//         phone:"oppo",
+//         color:"black"
+//     }
+//     let response=await axios("http://localhost:3000/products/172a",{
+//         method:"Put",
+//         data,
+//         // data:JSON.stringify(data),
+//         Headers:{
+//             "content-type":"application/json"
+//         }
+//     })
+//          console.log(response);
+// }
+// modifyproduct()
+// async function replaceproduct(){
+//     const axios=require('axios')
+//     let body={"phone":"iphone","color":"black"}
+//     let response =await axios("http://localhost:3000/products/d5ab",{
+//         method:"Patch",
+//         data:JSON.stringify(body),
+//         Headers:{
+//             "content-type":"application/json"
+//         }
+//     })
+//          console.log(response);
+// }
+// //replaceproduct()
+// async function deleteproduct(){
+//     const axios=require('axios')
+//     let response =await axios("http://localhost:3000/products/c62d",{
+//         method:"delete",
+//         Headers:{
+//             "content-type":"application/json"
+//         }
+//     })
+//          console.log(response);
+         
+// }
+// //deleteproduct()
+/////////////////////////////////////////////with try and catch
 async function addproducts(){
-    const axios=require('axios')
+    try{
+        const axios=require('axios')
     data={"phone":"vivo","color":"black"}
     let response=await axios("http://localhost:3000/products",{
         method:"POST",
-        data:JSON.stringify(data),
+        data,
+        //data:JSON.stringify(data),
         Headers:{
             "content-type":"application/json"
         }
     })
     console.log(response);
     
+    }
+    catch(err){
+        console.log(err);
+    }
 }
-//addproducts()
+addproducts()
 async function displayproducts(){
     const axios=require('axios')
     let response=await axios("http://localhost:3000/products",{
@@ -146,7 +232,7 @@ async function displayproduct(){
     })
          console.log(response);
 }
-displayproduct()
+//displayproduct()
 async function modifyproduct(){
     const axios=require('axios')
     let data={
@@ -163,7 +249,7 @@ async function modifyproduct(){
     })
          console.log(response);
 }
-modifyproduct()
+//modifyproduct()
 async function replaceproduct(){
     const axios=require('axios')
     let body={"phone":"iphone","color":"black"}
