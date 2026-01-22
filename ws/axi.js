@@ -149,21 +149,25 @@ async function displayproduct(){
 displayproduct()
 async function modifyproduct(){
     const axios=require('axios')
-    let body={"phone":"oppo","color":"black"}
-    let response=await axios("http://localhost:3000/products/b9e0",{
+    let data={
+        phone:"oppo",
+        color:"black"
+    }
+    let response=await axios("http://localhost:3000/products/172a",{
         method:"Put",
-        data:JSON.stringify(body),
+        data,
+        // data:JSON.stringify(body),
         Headers:{
             "content-type":"application/json"
         }
     })
          console.log(response);
 }
-//modifyproduct()
+modifyproduct()
 async function replaceproduct(){
     const axios=require('axios')
     let body={"phone":"iphone","color":"black"}
-    let response =await axios("http://localhost:3000/products/e793",{
+    let response =await axios("http://localhost:3000/products/d5ab",{
         method:"Patch",
         data:JSON.stringify(body),
         Headers:{
@@ -175,7 +179,7 @@ async function replaceproduct(){
 //replaceproduct()
 async function deleteproduct(){
     const axios=require('axios')
-    let response =await axios("http://localhost:3000/products/06e0",{
+    let response =await axios("http://localhost:3000/products/c62d",{
         method:"delete",
         Headers:{
             "content-type":"application/json"

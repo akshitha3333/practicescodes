@@ -1,13 +1,13 @@
 {
-   "products" : [
+  "products": [
     {
       "phone": "oppo",
       "color": "silver",
       "id": "e793"
     },
     {
-      "phone": "vivo",
-      "color": "blue",
+      "phone": "oppo",
+      "color": "black",
       "id": "172a"
     },
     {
