@@ -156,7 +156,7 @@ async function modifyproduct(){
     let response=await axios("http://localhost:3000/products/172a",{
         method:"Put",
         data,
-        // data:JSON.stringify(body),
+        // data:JSON.stringify(data),
         Headers:{
             "content-type":"application/json"
         }
