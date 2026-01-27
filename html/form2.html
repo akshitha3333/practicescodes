@@ -1,0 +1,130 @@
+<form action="store" method="Get">
+     <div>
+        <label for="name">Name</label>
+        <input type="text" name="Name" id="name" placeholder="enter name" size="15" pattern="[A-Za-z]+" spellcheck="true" required minlength="5" maxlength="20" autocomplete="on">
+     </div>
+     <div>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email" placeholder="enter email" size="20" pattern="^[a-z0-9]+([._%+-][a-z0-9]+)*@[a-z0-9-]+\.[a-z]{2,}$" multiple required >
+     </div>
+     <div>
+        <label for="Phone">Phone</label>
+        <input type="tel" name="Phone" id="Phone" placeholder="enter phone" required minlength="10" maxlength="10" >
+     </div>
+     <div>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Enter password"  size="15" required minlength="10" maxlength="15" >
+     </div>
+     <div>
+        <label for="">Gender</label>
+        <input type="radio" name="Gender" id="Male" value="Male" required ><label for="Male">male</label>
+        <input type="radio" name="Gender" id="Female" value="Female" required ><label for="Female">Female</label>
+     </div>
+     <div>
+        <label for="">Gender2</label>
+        <select name="Gender2" id="Gender" >
+            <option value="">choose an option</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+     </div>
+     <div>
+        <label for="" multiple>Languages</label>
+        <input type="checkbox" name="Telugu" id="Telugu"><label for="Telugu">Telugu</label> &nbsp;&nbsp;
+        <input type="checkbox" name="Hndi" id="Hindi"><label for="Hindi">Hindi</label> &nbsp;&nbsp;
+        <input type="checkbox" name="English" id="English"><label for="English">English</label> 
+     </div>
+     <div>
+        <label for="">Languages2</label>
+        <select name="Languages2" id="Languages2" multiple >
+            <option value="">choose an option</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+        </select>
+     </div>
+     <div>
+        <label for="DOB">DOB</label>
+        <input type="date"name=DOB id="DOB"  required min="2000-01-01" max="2005-01-01" required >
+    </div>
+    <div>
+        <label for="wake up time">wake up time</label>
+        <input type="time" name="Wake up time" id="wake up time"  required min="08:00" max="21:00" >
+    </div>
+    <div>
+        <label for="checkin">check in</label>
+        <input type="datetime-local" name="checkin" id="checkin"  required min="2024-01-01T09:00" max="2025-01-27T18:00">
+    </div>
+    <div>
+        <label for="checkout">check out</label>
+        <input type="datetime-local" name="checkout" id="checkout"  required min="2024-01-01T09:00" max="2025-01-27T18:00">
+    </div>
+    <div>
+        <label for="Birth month">Birth month</label>
+        <input type="month" name="Birth month" id="Birth month"  required min="2000-01" max="2005 -12">
+    </div>
+    <div>
+        <label for="valanteen week">valanteen week</label>
+        <input type="week" name="valanteen week" id="valanteen week"  required min="2026-W01" max="2026-W05">
+    </div>
+    <div>
+        <label for="Zip code">Zip code</label>
+        <input type="number" name="Zip code" id="Zip code"  required min="100000" max="999999" placeholder="Zipcode">
+    </div>
+    <div>
+        <label for="Age">Age</label>
+        <input type="range" name="Age" id="Age"  required min="5" max="80">
+    </div>
+    <div>
+        <label for="favorate color">favorate color</label>
+        <input type="color" name="favorate color" id="favorate color"  required>
+    </div>
+    <div>
+        <label for="instagram">instagram</label>
+        <input type="url" name="instagram" id="instagram" >
+    </div>
+    <div>
+        <label for="intrest">intrest</label>
+        <input type="text" list="interstlist" name="intrest" id="intrest"  required min="10" max="15">
+        <datalist id="interstlist">
+            <option value="sports">sports</option>
+            <option value="travelling">travelling</option>
+            <option value="reading books">reading books</option>
+            <option value="Art work">Art work</option>
+        </datalist>
+    </div>
+    <div>
+        <label for="Profile">Profile</label>
+        <input type="file" name="Profile" id="Profile" accept="image/jpeg" required>
+    </div>
+    <div>
+        <label for="vedio">vedio</label>
+        <input type="file" name="vedio" id="vedio" capture="user" required>
+    </div>
+    <div>
+        <label for="image">image</label>
+        <input type="image" src="dog.jpeg" width="200" name="image" id="image" required>
+    </div>
+    <div>
+        <label for="Hidden">Userid</label>
+        <input type="hidden"  name="Userid" id="Hidden" value="1234" >
+    </div>
+
+    <div>
+        <label for="Place">Place</label>
+        <select name="Place" id="Place"  required>
+           <option value="hyd" selected>Hyderabad</option>  
+           <option value="warangal">warangal</option>
+           <option value="Banguluru">Banguluru</option>
+        </select>
+    </div>
+    <div>
+        <label for="address">address</label>
+        <textarea name="address" id="address" required minlength="10" maxlength="25"></textarea>
+    </div>
+
+    <div>
+        <input type="submit"Value="Add User">
+         <input type="reset" value="Clear">
+    </div>
+</form>
