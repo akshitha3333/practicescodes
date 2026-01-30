@@ -1,58 +1,26 @@
 {
-  "products": [
+  "users": [
     {
-      "phone": "oppo",
-      "color": "silver",
-      "id": "e793"
+      "name": "akshitha",
+      "email": "akshitha@gmail.com",
+      "phone": "789632145",
+      "id": "cP1vME-",
+      "{\"name\":\"akshitha\",\"email\":\"akshitha@gmail.com\",\"phone\":\"789632145\"}": "",
+      "{\"name\":\"akshitha\",\"email\":\"aksh@gmail.com\",\"phone\":\"789632145\"}": ""
     },
     {
-      "phone": "oppo",
-      "color": "black",
-      "id": "172a"
+      "name": "mahender",
+      "email": "mahenderbaikadi@gmail.com",
+      "phone": "6305612347",
+      "id": "e_K1s-U"
     },
     {
-      "id": "d5ab",
-      "phone": "realme",
-      "color": "blue"
-    },
-    {
-      "id": "b9e0",
-      "phone": "realme",
-      "color": "blue"
-    },
-    {
-      "phone": "iphone",
-      "color": "gold",
-      "id": "c62d"
-    },
-    {
-      "id": "273c",
-      "phone": "vivo",
-      "color": "black"
-    },
-    {
-      "id": "816d",
-      "phone": "realme",
-      "color": "blue"
-    },
-    {
-      "{\"phone\":\"vivo\",\"color\":\"black\"}": "",
-      "id": "QwJEXWK"
-    },
-    {
-      "phone": "vivo",
-      "color": "black",
-      "id": "FyUo7e0"
-    },
-    {
-      "phone": "vivo",
-      "color": "black",
-      "id": "hg_Jk0K"
-    },
-    {
-      "phone": "vivo",
-      "color": "black",
-      "id": "SvqLhPd"
+      "name": "keerthana",
+      "email": "kichu@gmail.com",
+      "phone": "7305612347",
+      "id": "vLvlUU9",
+      "{\"name\":\"keerthana\",\"email\":\"kichu@gmail.com\",\"phone\":\"7305612347\"}": "",
+      "{\"name\":\"keerthana\",\"email\":\"kichchu@gmail.com\",\"phone\":\"7305612347\"}": ""
     }
   ]
 }
