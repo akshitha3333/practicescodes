@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+.card{
+   margin: 100px auto;
+   width: 400px;
+   border: 1px solid lightgray;
+   padding: 20px;
+
+}
+.card-input{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+.input-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 10px;
+    background-color: lightgray;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px ;
+    width: 10%;
+}
+.icon{
+    
+}
+.input{
+    border: 1px solid gray;
+    border-left:none;
+    padding: 5px;
+    width: 90%;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.card-input2{
+    position: relative;
+    margin-top: 40px;
+}
+.input2{
+    width: 100%;
+    padding: 20px;
+    padding-right: 100px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+
+}
+.input-icon2{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
