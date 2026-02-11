@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(195, 214, 221);
+}
+.card{
+    margin: 150px auto;
+    width: 800px;
+
+    padding: 10px;
+    /* background-color: gray; */
+}
+.flex{
+    display: flex;
+}
+.header{
+    padding: 25px;
+    background-color: white;
+    justify-content: space-between ;
+    position: relative;
+}
+.footer{
+    justify-content: space-between;
+}
+.text2{
+    justify-content: space-between;
+}
+.email{
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+}
+.em{
+    font-size: 12px;
+}
+.p1{
+    font-size: 15px;
+    margin-top: 50px;
+}
+.a1{
+    margin-top: 50px;
+}
+.p2{
+    margin-top: 1px;
+}
+.bottom{
+    margin-left:  120px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.next{
+    padding: 5px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 14px;
+    color: white;
+}
+.tag{
+    position: absolute;
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: white;
+    color: blue;
+}

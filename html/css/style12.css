@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.card{
+    width: 400px ;
+    margin: 100px auto;
+    /* background-color: aqua; */
+    padding: 40px;
+    border: 1px solid lightgray;
+     box-shadow: 0 0 10px gray;
+    border-radius: 16px;
+    position: relative;
+}
+.login{
+    font-size: 20px;
+}
+.text1{
+    display: flex;
+    justify-content: space-between;
+}
+.signup{
+    color: green;
+}
+.text2{
+    justify-content: space-between;
+}
+.box{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+.btn{
+    width: 100%;
+    padding: 8px ;
+    margin-top: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 16px;
+    margin-bottom: 20px;
+
+}
+.text2{
+    display: flex;
+}
+.input1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.input2{
+    margin-bottom: 20px;
+}
+.box2{
+    width: 100%;
+    padding: 8px ;
+    margin-top: 22px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    text-align: center;
+}
+.fps{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    border-top: 2px solid lightgray;
+}
+.ok{
+    position: absolute;
+    background-color: white;
+    right: 185px;
+    top: 345px;
+}

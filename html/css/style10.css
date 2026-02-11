@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    position: relative;
+    margin: 100px auto;
+    box-shadow: 0 0 20px lightgray;
+    width: 200px;
+    /* height: 120px; */
+    /* background-color: aqua; */
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+.img{
+    /* margin: 100%; */
+    width: 100%;
+    border-radius: 15px;
+    /* height: 100%; */
+
+}
+.footer{
+    position: absolute;
+    background-color: white;
+    width: 198.9px;
+    padding: 10px;
+    bottom: 0%;
+    border-bottom-left-radius:  15px;
+     border-bottom-right-radius: 15px;
+}
+.order{
+    font-size: 15px;
+}
+.para{
+    font-size: 10px;
+    color: gray;
+}
