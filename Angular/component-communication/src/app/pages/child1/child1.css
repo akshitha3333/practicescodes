@@ -1,0 +1,63 @@
+:host {
+    display: block;
+    width: 380px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 18px;
+    padding: 32px 28px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #1a1a1f;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+  
+  .field label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 6px;
+    margin-left: 4px;
+  }
+  
+  .field input {
+    border: 1.5px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 12px ;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+    color: #333;
+    background: #fafafa;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 18px;
+    background: rgb(30, 30, 122);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: opacity 0.2s, transform 0.1s;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }

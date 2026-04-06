@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-center{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:system-ui, sans-serif;
+}
+
+
+/* Card */
+
+.card{
+  width:420px;
+  background:#ffffff;
+  border-radius:14px;
+  padding:40px 32px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+
+/* Card icon */
+
+.card-icon{
+  width:70px;
+  height:70px;
+  margin:auto;
+  border-radius:12px;
+  background:#eef2ff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+  color:#3b82f6;
+  margin-bottom:20px;
+}
+
+
+/* Title */
+
+.card-title{
+  text-align:center;
+  font-size:26px;
+  font-weight:700;
+  color:#1e293b;
+  margin-bottom:6px;
+}
+
+
+/* Subtitle */
+
+.card-subtitle{
+  text-align:center;
+  font-size:14px;
+  color:#64748b;
+  margin-bottom:25px;
+}
+
+/* Form group */
+
+.form-group{
+  margin-bottom:18px;
+}
+
+
+/* Label */
+
+.form-label{
+  font-size:13px;
+  font-weight:600;
+  color:#374151;
+  display:block;
+  margin-bottom:6px;
+}
+
+
+/* Input wrapper for icon */
+
+.input-icon{
+  position:relative;
+}
+
+
+/* Input icon */
+
+.input-icon span{
+  position:absolute;
+  left:10px;
+  top:50%;
+  transform:translateY(-50%);
+  color:#94a3b8;
+  font-size:14px;
+}
+
+
+/* Input field */
+
+.form-control{
+  width:100%;
+  padding:10px 12px 10px 36px;
+  border-radius:8px;
+  border:1px solid #cbd5e1;
+  background:#f1f5f9;
+  font-size:14px;
+  outline:none;
+}
+/* Focus */
+
+.form-control:focus{
+  border-color:#3b82f6;
+  background:#fff;
+}
+
+
+/* Button */
+
+.btn{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#0f172a;
+  color:white;
+  font-weight:600;
+  font-size:15px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.btn:hover{
+  background:#020617;
+}
+/* Link */
+
+.link{
+  display:block;
+  text-align:center;
+  margin-top:16px;
+  font-size:13px;
+  color:#2563eb;
+  text-decoration:none;
+}
+
+.link:hover{
+  text-decoration:underline;
+}

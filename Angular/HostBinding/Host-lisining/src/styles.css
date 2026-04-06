@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{flex:0 0 calc((100%/12)*1);}
+.col-2{flex:0 0 calc((100%/12)*2);}
+.col-3{flex:0 0 calc((100%/12)*3);}
+.col-4{flex:0 0 calc((100%/12)*4);}
+.col-5{flex:0 0 calc((100%/12)*5);}
+.col-6{flex:0 0 calc((100%/12)*6);}
+.col-7{flex:0 0 calc((100%/12)*7);}
+.col-8{flex:0 0 calc((100%/12)*8);}
+.col-9{flex:0 0 calc((100%/12)*9);}
+.col-10{flex:0 0 calc((100%/12)*10);}
+.col-11{flex:0 0 calc((100%/12)*11);}
+.col-12 {flex:0 0 calc((100%/12)*12);}
+.p-0{padding: 0rem;}
+.p-1{padding: 0.25rem;}
+.p-2{padding: 0.5rem;}
+.p-3{padding: 0.75rem;}
+.p-4{padding: 1rem;}
+.p-5{padding: 1.25rem;}
+.p-6{padding: 1.5rem;}
+.p-7{padding: 2rem;}
+
+
+
+.card{
+    border:1px solid #ccc;
+}
+/* .card:hover{
+    background-color: rgb(222, 150,63);
+} */
+.active{
+   background-color: rgb(14, 77, 194);
+}

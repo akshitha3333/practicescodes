@@ -1,0 +1,17 @@
+
+<section style="display: flex;">
+
+  <app-child1
+    [editIndex]="editIndex"
+    [editItem]="editItem"
+    (saveEntry)="onSaveEntry($event)">
+  </app-child1>
+
+  <app-child2
+    [details]="data"
+    [activeEditIndex]="editIndex"
+    (editData)="onEditData($event)"
+    (deleteData)="onDeleteData($event)">
+  </app-child2>
+
+</section>

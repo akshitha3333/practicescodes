@@ -1,0 +1,32 @@
+@if(users.length!=0){
+    <div class="table-container middle p-5">
+        <table class="table ">
+        <thead>
+            <tr>
+                <th>User Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+        @for(user of users; track $index){
+        <tr>
+            <td>{{user.userid}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.phone}}</td>
+
+            <td><button class="btn btn-danger" (click)="deleteEvent.emit(user.userid)">Delete</button></td>
+            <td><button class="btn btn-blue" (click)="editEvent.emit(user.userid)">Edit</button></td>
+        </tr>
+        }
+        </tbody>
+</table>
+    </div>
+
+}@else{
+<h2 class="text-center">Users Not Yet Added</h2>
+}
